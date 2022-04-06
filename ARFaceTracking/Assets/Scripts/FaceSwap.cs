@@ -8,16 +8,18 @@ public class FaceSwap : MonoBehaviour
     public List<Material> faceMaterials = new List<Material>();
     private ARFaceManager faceManager;
     private int faceMaterialIndex = 0;
+
     void Start()
     {
         faceManager = GetComponent<ARFaceManager>();
     }
+
     public void SwitchFace()
     {
         foreach (ARFace face in faceManager.trackables)
             face.GetComponent<Renderer>().material = faceMaterials[faceMaterialIndex];
         faceMaterialIndex++;
-        if (faceMaterialIndex > faceMaterials.Count)
+        if (faceMaterialIndex >= faceMaterials.Count)
             faceMaterialIndex = 0;
     }
 }
