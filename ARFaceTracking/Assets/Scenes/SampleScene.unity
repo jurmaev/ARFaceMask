@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_FacePrefab: {fileID: 854905462}
-  m_MaximumFaceCount: 1
+  m_MaximumFaceCount: 3
 --- !u!114 &40919616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,7 +432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\u041F\u043E\u043C\u0435\u043D\u044F\u0442\u044C"
 --- !u!222 &259715466
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -702,7 +702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   face: {fileID: 854905468}
-  mousePointsIndices: 0d0000000e0000004e00000024010000
+  mousePointsIndices: 
   pointerScale: 0.01
   optionalPointerPrefab: {fileID: 0}
 --- !u!114 &854905464
