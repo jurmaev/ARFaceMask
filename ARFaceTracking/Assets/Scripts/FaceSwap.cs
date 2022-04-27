@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -7,11 +6,12 @@ public class FaceSwap : MonoBehaviour
 {
     public List<Material> faceMaterials = new List<Material>();
     private ARFaceManager faceManager;
-    private int faceMaterialIndex = 0;
+    private int faceMaterialIndex;
 
     void Start()
     {
         faceManager = GetComponent<ARFaceManager>();
+        faceMaterialIndex = 0;
     }
 
     public void SwitchFace()
