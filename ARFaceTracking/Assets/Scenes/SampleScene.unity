@@ -200,10 +200,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faceMaterials:
   - {fileID: 2100000, guid: ae31ee61fa90656468e1fa8c60323d16, type: 2}
+  - {fileID: 2100000, guid: a57d0559a5d2e3d41a6f716930f66066, type: 2}
+  - {fileID: 2100000, guid: c37cc650280052648b4d6214fa07e7c1, type: 2}
   - {fileID: 2100000, guid: 5cd6e797d1ff97248a69724268ea6666, type: 2}
+  - {fileID: 2100000, guid: 4f1b666ef6469b94096ed56fe03f2c95, type: 2}
+  - {fileID: 2100000, guid: 9fe2b638bb95d5c428698ecc437e4d25, type: 2}
   - {fileID: 2100000, guid: 7b47d1e27102faf4cbe69f5e93c0f5df, type: 2}
+  - {fileID: 2100000, guid: 1ed47126a03afee429e377b94bf91213, type: 2}
   - {fileID: 2100000, guid: 82c1153e2848f9a4a9a9a2a1da36db41, type: 2}
-  - {fileID: 2100000, guid: 0c04d1c8f4747834f9c8b6a51e5a7ccb, type: 2}
+  - {fileID: 2100000, guid: 6081c36cdd8d51546bfc29be4a0b52cd, type: 2}
 --- !u!114 &40919619
 MonoBehaviour:
   m_ObjectHideFlags: 0
