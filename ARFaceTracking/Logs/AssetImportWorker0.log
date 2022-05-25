@@ -1,124 +1,124 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7549 MB
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Education' Language: 'ru' Physical Memory: 8014 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/jurmaev/UnityProjects/ARFaceMask/ARFaceTracking
+C:/Users/Kroflex/Desktop/ARFaceMask/ARFaceTracking
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60990
-Successfully changed project path to: C:/Users/jurmaev/UnityProjects/ARFaceMask/ARFaceTracking
-C:/Users/jurmaev/UnityProjects/ARFaceMask/ARFaceTracking
+62773
+Successfully changed project path to: C:/Users/Kroflex/Desktop/ARFaceMask/ARFaceTracking
+C:/Users/Kroflex/Desktop/ARFaceMask/ARFaceTracking
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 116.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jurmaev/UnityProjects/ARFaceMask/ARFaceTracking/Assets
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kroflex/Desktop/ARFaceMask/ARFaceTracking/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.5749
+    VRAM:     2010 MB
+    Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001975 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004927 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.039 seconds
+- Completed reload, in  1.539 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1039ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (1540ms)
+		BeginReloadAssembly (218ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (814ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1123ms)
+			LoadAssemblies (213ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (387ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (319ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (412ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (29ms)
-				ProcessInitializeOnLoadAttributes (155ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005476 seconds.
+Registered in 0.013723 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\ARFaceMask\ARFaceTracking\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kroflex\Desktop\ARFaceMask\ARFaceTracking\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 97.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.756 seconds
+- Completed reload, in  3.140 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1757ms)
-		BeginReloadAssembly (209ms)
+	ReloadAssembly (3143ms)
+		BeginReloadAssembly (442ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1445ms)
-			LoadAssemblies (134ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2500ms)
+			LoadAssemblies (354ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (446ms)
+			SetupTypeCache (845ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (563ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (939ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (582ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1954 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.7 MB.
-System memory in use after: 83.8 MB.
+System memory in use before: 83.9 MB.
+System memory in use after: 83.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2389.
-Total: 7.170300 ms (FindLiveObjects: 0.249500 ms CreateObjectMapping: 0.120000 ms MarkObjects: 6.640000 ms  DeleteObjects: 0.158400 ms)
+Total: 7.471500 ms (FindLiveObjects: 0.551300 ms CreateObjectMapping: 0.118600 ms MarkObjects: 6.600300 ms  DeleteObjects: 0.198600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -127,195 +127,441 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/—Pngtree—black circle_3058748.png
-  artifactKey: Guid(cf11f1a1c27c1b444b6baf7dbe90835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/—Pngtree—black circle_3058748.png using Guid(cf11f1a1c27c1b444b6baf7dbe90835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4c30034e60a47e030ac5bfa3f93892') in 0.186874 seconds 
+  path: Assets/Materials/Stylized Lava Materials
+  artifactKey: Guid(345ed8ecdcb05a4419f9e817d94cf10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials using Guid(345ed8ecdcb05a4419f9e817d94cf10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f824d70f82a86db40343308d7bc92194') in 0.010538 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.708539 seconds.
+  Time since last request: 0.000465 seconds.
   path: Assets/—Pngtree—black circle_3058748.png
   artifactKey: Guid(cf11f1a1c27c1b444b6baf7dbe90835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/—Pngtree—black circle_3058748.png using Guid(cf11f1a1c27c1b444b6baf7dbe90835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb85c4a2e6fe106d29b8d2aa604d1917') in 0.138048 seconds 
+Start importing Assets/—Pngtree—black circle_3058748.png using Guid(cf11f1a1c27c1b444b6baf7dbe90835c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e93207420f27d4cacc237ac37896528') in 0.295729 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 225.752337 seconds.
+  Time since last request: 2.838786 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01
+  artifactKey: Guid(fa603172adc08c9439ceeae3cbc9bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01 using Guid(fa603172adc08c9439ceeae3cbc9bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38f60fcc23ce360bcd6272d75e9ad71') in 0.007789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058923 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01/M_Lava01.mat
+  artifactKey: Guid(196a83e4fac7a644ebc189706f6c2082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01/M_Lava01.mat using Guid(196a83e4fac7a644ebc189706f6c2082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae56a7b73e51c0d97e8bab58a68910cc') in 1.457712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_metallic.png
+  artifactKey: Guid(9be07e88bf304ab4b8ec2efeab744e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_metallic.png using Guid(9be07e88bf304ab4b8ec2efeab744e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0808733d680601a46a534c4cea177766') in 0.265432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_ao.png
+  artifactKey: Guid(7385f77603e598042988b50728804452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_ao.png using Guid(7385f77603e598042988b50728804452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85463fa55de8424f7fb12caeca9fe1e0') in 0.208036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_emissive.png
+  artifactKey: Guid(82e1f644fb8e5504393566f67abc8f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_emissive.png using Guid(82e1f644fb8e5504393566f67abc8f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa6a15668db37aa288761b45d2c9498') in 0.162029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01/M_Lava01_Variant01.mat
+  artifactKey: Guid(505fbbba9c5a99a4ba162ef4ee7c5736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01/M_Lava01_Variant01.mat using Guid(505fbbba9c5a99a4ba162ef4ee7c5736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880d335b61b5995528e7ce5a004f99ef') in 0.737131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_basecolor.png
+  artifactKey: Guid(d11561a80694bd64f9b27f8577d16fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_basecolor.png using Guid(d11561a80694bd64f9b27f8577d16fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f7495bd157cdb4718dc40b9e255c00') in 0.135897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_height.png
+  artifactKey: Guid(36c47b94cf58c1946b7412fa62d86076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_height.png using Guid(36c47b94cf58c1946b7412fa62d86076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53ff27aa483b0f4d316cd873fbb6904') in 0.135001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_normal.png
+  artifactKey: Guid(680e77cf49a6fae4dbb07ba51303bb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava01/T_Lava01_normal.png using Guid(680e77cf49a6fae4dbb07ba51303bb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0b7a21a1bdaf85646846a2c26c1f83') in 0.170014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.060664 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava02
+  artifactKey: Guid(d53eb81928367ff43987dbb9416df60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava02 using Guid(d53eb81928367ff43987dbb9416df60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943376af9d74d38610ad06776e799188') in 0.007886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042318 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava02/M_Lava02.mat
+  artifactKey: Guid(9a526ccb9696d6545b3991e93bfb18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava02/M_Lava02.mat using Guid(9a526ccb9696d6545b3991e93bfb18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0ea61be5900f4ba4bf06870b60a0d8') in 0.496077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_emissive.png
+  artifactKey: Guid(5e1b3fdd9823e0849bd594e8c5f87f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_emissive.png using Guid(5e1b3fdd9823e0849bd594e8c5f87f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805c82b46ab4a43ae7c230a3269208dd') in 0.138333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_height.png
+  artifactKey: Guid(372cb625b210c8947b9fb99adc83e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_height.png using Guid(372cb625b210c8947b9fb99adc83e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74133b5faa6445dc022eac6ec10f81a2') in 0.138375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_normal.png
+  artifactKey: Guid(71610f3bc62fcfc4bb04f413e778e1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_normal.png using Guid(71610f3bc62fcfc4bb04f413e778e1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019d73d7d4f953d456d1ce01734d6fb5') in 0.138834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_basecolor.png
+  artifactKey: Guid(c0cfa846b033b0c4c9c81856f53a734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_basecolor.png using Guid(c0cfa846b033b0c4c9c81856f53a734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e77c7e8279cdf35e22b5f13e4584b01') in 0.155787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_metallic.png
+  artifactKey: Guid(87e60f60a1c94754780876b2c361f945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava02/T_Lava02_metallic.png using Guid(87e60f60a1c94754780876b2c361f945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d87c6922d1947eb1bc01c5543897f5d') in 0.167327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.615086 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava03
+  artifactKey: Guid(37a25a87eea4c3949a280b19020afdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava03 using Guid(37a25a87eea4c3949a280b19020afdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce126f55667e241b2188beb0adf11db') in 0.007575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043572 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava03/M_Lava03.mat
+  artifactKey: Guid(299166cc9328e484ba27f7c6c60bcc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava03/M_Lava03.mat using Guid(299166cc9328e484ba27f7c6c60bcc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fa4ea439632ab12846da53b6d3c4a9') in 0.778118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_metallic.png
+  artifactKey: Guid(b45c16963ac761d4cac39a870f8efe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_metallic.png using Guid(b45c16963ac761d4cac39a870f8efe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4d753c6448c7698582637d2dde7815') in 0.145836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_basecolor.png
+  artifactKey: Guid(4921777c11d0755449b584725d342e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_basecolor.png using Guid(4921777c11d0755449b584725d342e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da6a31aab70e88052606a629ae2a0cd') in 0.222138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_normal.png
+  artifactKey: Guid(6e88dfd7ec5417847a311c53434d14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_normal.png using Guid(6e88dfd7ec5417847a311c53434d14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34768f4577ac788b6ff64099e5106748') in 0.159501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_height.png
+  artifactKey: Guid(ebe988e0fae69904da7059b5c9f618c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_height.png using Guid(ebe988e0fae69904da7059b5c9f618c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b547904244b3079b41df860757e691d3') in 0.212023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_emissive.png
+  artifactKey: Guid(f17b304801f7c1d47aaa274463ac04ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava03/T_Lava03_emissive.png using Guid(f17b304801f7c1d47aaa274463ac04ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e154f5625571ff214c9f7e9932d8da8') in 0.176124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.331160 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava04
+  artifactKey: Guid(ac6b59675e338924389ec0c26567ee73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava04 using Guid(ac6b59675e338924389ec0c26567ee73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78be324a97bff3f97b0a14489e6d68b5') in 0.006064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060773 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava04/M_Lava04.mat
+  artifactKey: Guid(530bb4bbf64f6a8498aac9f9a1644e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava04/M_Lava04.mat using Guid(530bb4bbf64f6a8498aac9f9a1644e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5941a45b3309349fa55c713a8ffbf02') in 0.562983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_normal.png
+  artifactKey: Guid(4b17f1284a150504d9421155d6de7e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_normal.png using Guid(4b17f1284a150504d9421155d6de7e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a461788e4861d6f45b3380ab047912') in 0.150785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_metallic.png
+  artifactKey: Guid(1b0eddcd97673004da417fffdd79781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_metallic.png using Guid(1b0eddcd97673004da417fffdd79781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eda6b9a8c11ccc2152c4ece706d377') in 0.175845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_height.png
+  artifactKey: Guid(b940bed1b2c911144989312eb54a61a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_height.png using Guid(b940bed1b2c911144989312eb54a61a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3fcb1df359681a453b765a3695b751') in 0.229187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_basecolor.png
+  artifactKey: Guid(8f675aa6c312b9b4ca5a685c881fc761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_basecolor.png using Guid(8f675aa6c312b9b4ca5a685c881fc761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cb13449dbf23e663b1a18c588555a6') in 0.228914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.473068 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava05
+  artifactKey: Guid(636bdf4a57a028b418fd328bdf9c1965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava05 using Guid(636bdf4a57a028b418fd328bdf9c1965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd51e428a40e41ee5077fe7ddf43118c') in 0.005575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045812 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava05/M_Lava05.mat
+  artifactKey: Guid(7ba8162d09542e34b9a72bb543447494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava05/M_Lava05.mat using Guid(7ba8162d09542e34b9a72bb543447494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b426a785e77500384323fd010375b83') in 0.474966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000945 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava05/T_Lava0_normal.png
+  artifactKey: Guid(14f8a22873eaa76469848d6c6030641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava05/T_Lava0_normal.png using Guid(14f8a22873eaa76469848d6c6030641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693cf428c8361faef4bff19d4f525bb9') in 0.187921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava05/T_Lava0_height.png
+  artifactKey: Guid(c8a685e066a200d4f9f1c49279c41617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava05/T_Lava0_height.png using Guid(c8a685e066a200d4f9f1c49279c41617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5474c11c8b889c0bb45bc6678bb6fe8c') in 0.141725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava05/T_Lava0_basecolor.png
+  artifactKey: Guid(091eb83e1f36425438bc51ecc5b2e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava05/T_Lava0_basecolor.png using Guid(091eb83e1f36425438bc51ecc5b2e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e08176b030d10a6d591d9c1a948fc4') in 0.143263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava05/T_Lava0_metallic.png
+  artifactKey: Guid(a33cf7e1fa3e43149898e2f4762ad1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylized Lava Materials/Lava05/T_Lava0_metallic.png using Guid(a33cf7e1fa3e43149898e2f4762ad1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1835330e6bf00be81f74d9e3a1e25f39') in 0.194032 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 48.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.4 MB.
+System memory in use after: 48.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2433.
+Total: 13.863000 ms (FindLiveObjects: 0.634000 ms CreateObjectMapping: 0.967600 ms MarkObjects: 12.198900 ms  DeleteObjects: 0.057900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1305.485418 seconds.
+  path: Assets/Montserrat
+  artifactKey: Guid(2735e41bda55d71498ed6c3b691b7f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat using Guid(2735e41bda55d71498ed6c3b691b7f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1500e48229994d5f28ebc8940c9dff') in 0.022056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001247 seconds.
   path: Assets/Montserrat/Montserrat-Italic-VariableFont_wght.ttf
   artifactKey: Guid(a5c9ee007ade2bb45a2e05a1b3fe7761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/Montserrat-Italic-VariableFont_wght.ttf using Guid(a5c9ee007ade2bb45a2e05a1b3fe7761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72070cd0cbdee9c172e5893f93981a0') in 0.147670 seconds 
+Start importing Assets/Montserrat/Montserrat-Italic-VariableFont_wght.ttf using Guid(a5c9ee007ade2bb45a2e05a1b3fe7761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7849bf528c35fc97196e1f6844efd1c1') in 0.884743 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000403 seconds.
+  Time since last request: 0.001039 seconds.
+  path: Assets/Montserrat/Montserrat-VariableFont_wght.ttf
+  artifactKey: Guid(2ca4b7024ccd0bd42bc377067d553af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/Montserrat-VariableFont_wght.ttf using Guid(2ca4b7024ccd0bd42bc377067d553af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c70d063609d6d802be0772a760ea8af') in 0.051907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.150658 seconds.
+  path: Assets/Montserrat/static
+  artifactKey: Guid(c04a703223e41ca4a8c1e3d19823b359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static using Guid(c04a703223e41ca4a8c1e3d19823b359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec388708d44f6c0ecc4939f8ed57fef') in 0.011631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055653 seconds.
+  path: Assets/Montserrat/static/Montserrat-Black.ttf
+  artifactKey: Guid(a40e593c65740404ab72138324580db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-Black.ttf using Guid(a40e593c65740404ab72138324580db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b187dea0cf0398e55d7007a785e978') in 0.044349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019128 seconds.
+  path: Assets/Montserrat/static/Montserrat-BoldItalic.ttf
+  artifactKey: Guid(7aaf5678a2a9f73489ecf5f931293e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-BoldItalic.ttf using Guid(7aaf5678a2a9f73489ecf5f931293e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1217fd82a8799b3da2879df3bbd5be') in 0.053033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Montserrat/static/Montserrat-BlackItalic.ttf
+  artifactKey: Guid(f17e0c724c79f3e49876b12955d95d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-BlackItalic.ttf using Guid(f17e0c724c79f3e49876b12955d95d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203560fab234405b49c229d273d50995') in 0.067160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
   path: Assets/Montserrat/static/Montserrat-Light.ttf
   artifactKey: Guid(aacc72b121f1cb948be28ad2074b08d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-Light.ttf using Guid(aacc72b121f1cb948be28ad2074b08d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc5d13414e9dcbbaa25f2b906346018') in 0.029906 seconds 
+Start importing Assets/Montserrat/static/Montserrat-Light.ttf using Guid(aacc72b121f1cb948be28ad2074b08d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89565b6dd42b5478320476689721671d') in 0.045866 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000553 seconds.
+  Time since last request: 0.000442 seconds.
   path: Assets/Montserrat/static/Montserrat-Regular.ttf
   artifactKey: Guid(f8ab52172b4b9fa4485e352ba080f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-Regular.ttf using Guid(f8ab52172b4b9fa4485e352ba080f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aab64b50c0c6c25336208d19646f9c') in 0.036810 seconds 
+Start importing Assets/Montserrat/static/Montserrat-Regular.ttf using Guid(f8ab52172b4b9fa4485e352ba080f91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e132c4605aa5575ea0ecc2b512a1e9d8') in 0.044353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Montserrat/static/Montserrat-Thin.ttf
+  artifactKey: Guid(7580a2cc39127fc45a88e53acc03e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-Thin.ttf using Guid(7580a2cc39127fc45a88e53acc03e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ef287bf32c8a251675486b962ff9ad') in 0.062248 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000449 seconds.
-  path: Assets/Montserrat/static/Montserrat-Thin.ttf
-  artifactKey: Guid(7580a2cc39127fc45a88e53acc03e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-Thin.ttf using Guid(7580a2cc39127fc45a88e53acc03e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901760d0add20d33039ca9b90269ac98') in 0.036906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Montserrat/static/Montserrat-ThinItalic.ttf
-  artifactKey: Guid(bfe5fc9cdac550640a1f53a57765564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-ThinItalic.ttf using Guid(bfe5fc9cdac550640a1f53a57765564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9646bae5600dd73820dc1ca180de56c0') in 0.035180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Montserrat/static/Montserrat-SemiBoldItalic.ttf
-  artifactKey: Guid(1bf2690364b7a6c4f8b1404d05c82c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-SemiBoldItalic.ttf using Guid(1bf2690364b7a6c4f8b1404d05c82c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115e313837d1907b3a55fd8a6a436e5a') in 0.035388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Montserrat/static/Montserrat-SemiBold.ttf
-  artifactKey: Guid(879151bdf1255604b9e0bd6802c74145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-SemiBold.ttf using Guid(879151bdf1255604b9e0bd6802c74145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6e21bc9e3db6970d52cce8fbd68d64') in 0.035378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000655 seconds.
-  path: Assets/Montserrat/static/Montserrat-MediumItalic.ttf
-  artifactKey: Guid(8a6bd3ec8bd44f24bb897071b821479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-MediumItalic.ttf using Guid(8a6bd3ec8bd44f24bb897071b821479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bf076a236a025c4bf2089205cb44e7') in 0.040218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Montserrat/static/Montserrat-Medium.ttf
-  artifactKey: Guid(3375bf487f987104b8d315ff2c66c2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-Medium.ttf using Guid(3375bf487f987104b8d315ff2c66c2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847c23433e0d7027775f92e2ab575551') in 0.032590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/Montserrat/Montserrat-VariableFont_wght.ttf
-  artifactKey: Guid(2ca4b7024ccd0bd42bc377067d553af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/Montserrat-VariableFont_wght.ttf using Guid(2ca4b7024ccd0bd42bc377067d553af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a08941383abf606dc61fb8c3b5571c') in 0.042822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000985 seconds.
-  path: Assets/Montserrat/static/Montserrat-LightItalic.ttf
-  artifactKey: Guid(c67c2f2bf10928047a712f865110efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-LightItalic.ttf using Guid(c67c2f2bf10928047a712f865110efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8873e7b0527e7d014b88742b9796d0') in 0.028820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.640625 seconds.
-  path: Assets/Montserrat/static/Montserrat-ExtraBold.ttf
-  artifactKey: Guid(fe46eb2d497ebc34e9056bec801b9f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-ExtraBold.ttf using Guid(fe46eb2d497ebc34e9056bec801b9f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4facb0f04736e54f14275b86b0b61719') in 0.036908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
   path: Assets/Montserrat/static/Montserrat-Italic.ttf
   artifactKey: Guid(11df6475bf5745f43a0ebb17d7cc28ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-Italic.ttf using Guid(11df6475bf5745f43a0ebb17d7cc28ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d9e24329d6953c2611f000759b80e0') in 0.030378 seconds 
+Start importing Assets/Montserrat/static/Montserrat-Italic.ttf using Guid(11df6475bf5745f43a0ebb17d7cc28ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90f4583ee86927eaa5f766c926a8bb3') in 0.049781 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000452 seconds.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Montserrat/static/Montserrat-ThinItalic.ttf
+  artifactKey: Guid(bfe5fc9cdac550640a1f53a57765564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-ThinItalic.ttf using Guid(bfe5fc9cdac550640a1f53a57765564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c371be4d4e915b8bac01edb9ee1715') in 0.034068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Montserrat/static/Montserrat-SemiBoldItalic.ttf
+  artifactKey: Guid(1bf2690364b7a6c4f8b1404d05c82c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-SemiBoldItalic.ttf using Guid(1bf2690364b7a6c4f8b1404d05c82c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6071d60e239f362f77fdfc40d334ead1') in 0.058630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
   path: Assets/Montserrat/static/Montserrat-ExtraLightItalic.ttf
   artifactKey: Guid(2b1b449dc5009164192c09891409d981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-ExtraLightItalic.ttf using Guid(2b1b449dc5009164192c09891409d981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0941514da845666c9017ce2a2ddf2e36') in 0.033972 seconds 
+Start importing Assets/Montserrat/static/Montserrat-ExtraLightItalic.ttf using Guid(2b1b449dc5009164192c09891409d981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4988567b06dab093f78056f61c8098c4') in 0.032841 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000714 seconds.
-  path: Assets/Montserrat/static/Montserrat-ExtraBoldItalic.ttf
-  artifactKey: Guid(a76fcc8b693e6024180bb0cc8762dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-ExtraBoldItalic.ttf using Guid(a76fcc8b693e6024180bb0cc8762dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aed42339e481bac6995f8dfd62b67c5') in 0.028748 seconds 
+  Time since last request: 0.000549 seconds.
+  path: Assets/Montserrat/static/Montserrat-SemiBold.ttf
+  artifactKey: Guid(879151bdf1255604b9e0bd6802c74145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-SemiBold.ttf using Guid(879151bdf1255604b9e0bd6802c74145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbccd82c1593ab92e64baf6f822793f7') in 0.046315 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Montserrat/static/Montserrat-ExtraLight.ttf
-  artifactKey: Guid(fdd694134411c2c43849dfbbfb10927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-ExtraLight.ttf using Guid(fdd694134411c2c43849dfbbfb10927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c936b87b6224f70eb9187cf586011d4') in 0.029004 seconds 
+  Time since last request: 0.000445 seconds.
+  path: Assets/Montserrat/static/Montserrat-MediumItalic.ttf
+  artifactKey: Guid(8a6bd3ec8bd44f24bb897071b821479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-MediumItalic.ttf using Guid(8a6bd3ec8bd44f24bb897071b821479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd483652dc9d01b4af5107c4ccd6593aa') in 0.041831 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.935436 seconds.
-  path: Assets/Montserrat/static/Montserrat-Black.ttf
-  artifactKey: Guid(a40e593c65740404ab72138324580db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-Black.ttf using Guid(a40e593c65740404ab72138324580db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d62c1a3117dbc1be37d8054b872949') in 0.044839 seconds 
+  Time since last request: 0.002217 seconds.
+  path: Assets/Montserrat/static/Montserrat-Bold.ttf
+  artifactKey: Guid(3a740b03bdb2d5c4bb4acc73afcebf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-Bold.ttf using Guid(3a740b03bdb2d5c4bb4acc73afcebf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfb81ee12af923b7b91d874d4e6c268') in 0.125819 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000535 seconds.
-  path: Assets/Montserrat/static/Montserrat-BoldItalic.ttf
-  artifactKey: Guid(7aaf5678a2a9f73489ecf5f931293e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-BoldItalic.ttf using Guid(7aaf5678a2a9f73489ecf5f931293e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2c784480e65bf4112e224d9a50612a') in 0.039844 seconds 
+  path: Assets/Montserrat/static/Montserrat-ExtraBoldItalic.ttf
+  artifactKey: Guid(a76fcc8b693e6024180bb0cc8762dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-ExtraBoldItalic.ttf using Guid(a76fcc8b693e6024180bb0cc8762dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc33bd41bb259292ba67449a6c6b260') in 0.048851 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000725 seconds.
-  path: Assets/Montserrat/static/Montserrat-BlackItalic.ttf
-  artifactKey: Guid(f17e0c724c79f3e49876b12955d95d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-BlackItalic.ttf using Guid(f17e0c724c79f3e49876b12955d95d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8e6a770b7ac698e05c773633b0d3a3') in 0.045323 seconds 
+  Time since last request: 0.000478 seconds.
+  path: Assets/Montserrat/static/Montserrat-Medium.ttf
+  artifactKey: Guid(3375bf487f987104b8d315ff2c66c2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-Medium.ttf using Guid(3375bf487f987104b8d315ff2c66c2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014127547ac055f78e9f12cdfa667868') in 0.042388 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/Montserrat/static/Montserrat-Bold.ttf
-  artifactKey: Guid(3a740b03bdb2d5c4bb4acc73afcebf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Montserrat/static/Montserrat-Bold.ttf using Guid(3a740b03bdb2d5c4bb4acc73afcebf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c8106af10861271146f4ced57e3744') in 0.096302 seconds 
+  Time since last request: 0.001587 seconds.
+  path: Assets/Montserrat/static/Montserrat-ExtraLight.ttf
+  artifactKey: Guid(fdd694134411c2c43849dfbbfb10927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-ExtraLight.ttf using Guid(fdd694134411c2c43849dfbbfb10927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1a0d8b0c9fd1bf5bf2604e200cabd3') in 0.030653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Montserrat/static/Montserrat-LightItalic.ttf
+  artifactKey: Guid(c67c2f2bf10928047a712f865110efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-LightItalic.ttf using Guid(c67c2f2bf10928047a712f865110efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280c9a14e98fc4af5ac61ba7603f08ec') in 0.051296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Montserrat/static/Montserrat-ExtraBold.ttf
+  artifactKey: Guid(fe46eb2d497ebc34e9056bec801b9f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Montserrat/static/Montserrat-ExtraBold.ttf using Guid(fe46eb2d497ebc34e9056bec801b9f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82b138eb6b905c94359a144abec7bf7') in 0.032285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.134281 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(289e4ecea3967b947ad30a298fbc9fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(289e4ecea3967b947ad30a298fbc9fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b7d3e15845d9833fb07e4068ba00bc') in 0.013832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.298665 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(83042bbf2b7f5da40a4020e46f998f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(83042bbf2b7f5da40a4020e46f998f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617d32fd07d63ee9aab19ff6953ed540') in 0.008940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 333.919628 seconds.
+  path: Assets/PaintMaterials
+  artifactKey: Guid(7928f1ffe7bd2e44ca48954c3c105f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PaintMaterials using Guid(7928f1ffe7bd2e44ca48954c3c105f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a193031a32710388cad3a7426a7eb777') in 0.012099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.434651 seconds.
+  path: Assets/Materials/PaintMaterials/Materials/M_Paint_01.mat
+  artifactKey: Guid(9c33db1ac9790aa4b83390861d8536e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PaintMaterials/Materials/M_Paint_01.mat using Guid(9c33db1ac9790aa4b83390861d8536e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2da155a8d690c355dcde47413814c73') in 0.670841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Materials/PaintMaterials/Materials/M_Paint_18.mat
+  artifactKey: Guid(239d914c28cdd104abd87dab856f7dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PaintMaterials/Materials/M_Paint_18.mat using Guid(239d914c28cdd104abd87dab856f7dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b5c7ef671cd486c10f37db8efc586e') in 0.148120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Materials/PaintMaterials/Materials/M_Paint_22.mat
+  artifactKey: Guid(3d0a0cf705fa10f4cb4cae5c5188cdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PaintMaterials/Materials/M_Paint_22.mat using Guid(3d0a0cf705fa10f4cb4cae5c5188cdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309204165b5060720a32c3ec21adff65') in 0.148757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Materials/PaintMaterials/Materials/M_Paint_17.mat
+  artifactKey: Guid(43133f9579a6c0242be902ab3f8b41d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PaintMaterials/Materials/M_Paint_17.mat using Guid(43133f9579a6c0242be902ab3f8b41d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0596fe4289505bf8089699bc957c94') in 0.086473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.284763 seconds.
+  path: Assets/Materials/PaintMaterials/Materials
+  artifactKey: Guid(3b81ae88b64889d44b522d144499524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PaintMaterials/Materials using Guid(3b81ae88b64889d44b522d144499524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6340f058ff3e883a4ae85b367687340a') in 0.005614 seconds 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 48.5 MB.
-System memory in use after: 48.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2437.
-Total: 3.302300 ms (FindLiveObjects: 0.191500 ms CreateObjectMapping: 0.045200 ms MarkObjects: 3.038300 ms  DeleteObjects: 0.026600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 16.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 48.4 MB.
-System memory in use after: 48.6 MB.
+System memory in use before: 49.1 MB.
+System memory in use after: 49.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2437.
-Total: 26.538100 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.073000 ms MarkObjects: 26.124000 ms  DeleteObjects: 0.084600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 11.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 48.5 MB.
-System memory in use after: 48.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2437.
-Total: 8.269300 ms (FindLiveObjects: 0.396100 ms CreateObjectMapping: 0.117800 ms MarkObjects: 7.711000 ms  DeleteObjects: 0.042200 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2438.
+Total: 45.898200 ms (FindLiveObjects: 0.700900 ms CreateObjectMapping: 0.116300 ms MarkObjects: 45.027100 ms  DeleteObjects: 0.051600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -324,57 +570,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007285 seconds.
+Registered in 0.010658 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\ARFaceMask\ARFaceTracking\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kroflex\Desktop\ARFaceMask\ARFaceTracking\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.034 seconds
+- Completed reload, in  5.271 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2038ms)
-		BeginReloadAssembly (385ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
+	ReloadAssembly (5289ms)
+		BeginReloadAssembly (1092ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (108ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (188ms)
-		EndReloadAssembly (1547ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (573ms)
+		EndReloadAssembly (3945ms)
+			LoadAssemblies (509ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (454ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (666ms)
+			SetupTypeCache (1081ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1410ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (315ms)
-				ProcessInitializeOnLoadAttributes (324ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (289ms)
+				ProcessInitializeOnLoadAttributes (1070ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.4 MB.
-System memory in use after: 86.5 MB.
+System memory in use before: 86.8 MB.
+System memory in use after: 86.9 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2441.
-Total: 5.138600 ms (FindLiveObjects: 0.294500 ms CreateObjectMapping: 0.119800 ms MarkObjects: 4.687200 ms  DeleteObjects: 0.035400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2442.
+Total: 24.459400 ms (FindLiveObjects: 0.982200 ms CreateObjectMapping: 0.629200 ms MarkObjects: 12.507300 ms  DeleteObjects: 10.336000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -383,30 +628,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 47.8 MB.
-System memory in use after: 47.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2441.
-Total: 4.991000 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.069500 ms MarkObjects: 4.632200 ms  DeleteObjects: 0.030000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
